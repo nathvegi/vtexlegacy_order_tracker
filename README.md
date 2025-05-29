@@ -1,7 +1,6 @@
 ## 🛍️ VTEX Legacy Order Tracker - Monitoramento e Notificação de Pedidos
 
-![image](https://github.com/user-attachments/assets/15b42402-450e-47b2-b03d-1bc8d9cf23b3)
-
+![image](https://github.com/user-attachments/assets/178b9af7-2ccc-45bc-bbcb-e7e01f0327a1)
 
 ---
 
