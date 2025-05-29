@@ -19,7 +19,7 @@ Um dos principais usos deste projeto é integrar a VTEX ao BotConversa, criando 
 
 O **VTEX Legacy Order Tracker** funciona como um monitor de pedidos, com os seguintes recursos:
 
-* **Agendamento de Consultas:** A aplicação roda em uma thread separada e agenda consultas periódicas à API de OMS da VTEX. Padrão: a cada 30 minutos (configurável via `.env`).
+* **Agendamento de Consultas:** A aplicação roda em uma thread separada e agenda consultas periódicas à API de OMS da VTEX. Padrão: a cada 30 minutos (configurável via código).
 
 * **Filtragem Inteligente:** O sistema filtra apenas os pedidos novos ou atualizados, priorizando por padrão os da política comercial principal (Sales Channel: 1).
 
@@ -96,8 +96,6 @@ VTEX_ACCOUNT="seuaccountvtex"
 VTEX_ENVIRONMENT="suaenvironmentvtex" # Ex: "vtexcommercestable"
 VTEX_APP_KEY="SUA_APP_KEY_AQUI"
 VTEX_APP_TOKEN="SUA_APP_TOKEN_AQUI"
-VTEX_TARGET_SALES_CHANNEL="1"
-VTEX_SLEEP_TIME_SECONDS="7200"
 ```
 
 5. **Crie a entidade `OrderEvents` no Master Data v1** com os campos:
